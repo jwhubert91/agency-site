@@ -22,6 +22,12 @@ body {
   filter: brightness(0.5);
 }
 
+@media only screen and (max-width: 600px) {
+  #hero_video {
+    display: none;
+  }
+}
+
 /* nav.navbar {
   position: absolute;
   top: 0px;
