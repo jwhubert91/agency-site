@@ -10,7 +10,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  font-family: 'Noto-Sans';
+  font-family: "Noto-Sans";
 }
 
 #hero_video {
@@ -20,6 +20,14 @@ body {
   position: relative;
   z-index: 0;
   filter: brightness(0.5);
+}
+
+.test_image {
+  position: absolute;
+  top: 20px;
+  height: 100px;
+  width: auto;
+  z-index: 100;
 }
 
 /* nav.navbar {
