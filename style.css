@@ -11,7 +11,7 @@ body {
 /* Main page video background */
 .hero_video {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   height: 80vh;
   top: 0;
   left: 0;
@@ -33,16 +33,24 @@ nav.navbar {
   position: absolute;
   top: 0;
   left: 0;
-  color: white;
+  color: none;
   width: 100%;
   padding: 0 1%;
+}
+
+.navbar .header-logo-container {
+  background: white;
+  opacity: 85%;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 3px;
 }
 
 nav.navbar h1.logo-header {
   font-size: 1.3em;
   line-height: 1.3em;
   padding: 0;
-  margin: 10px 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 nav.navbar .header-subtitle {
