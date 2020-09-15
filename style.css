@@ -1,16 +1,11 @@
 /* Page setup */
-@font-face {
-  font-family: Noto-Sans;
-  src: url(fonts/Noto_Sans_TC/NotoSansTC-Regular.otf);
-}
-
 html,
 body {
   margin: 0;
   padding: 0;
   top: 0;
   left: 0;
-  font-family: "Noto-Sans";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Main page video background */
@@ -21,7 +16,7 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
-  filter: brightness(0.5);
+  filter: brightness(0.3);
   position: relative;
 }
 
