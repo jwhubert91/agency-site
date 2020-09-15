@@ -25,6 +25,14 @@ body {
   position: relative;
 }
 
+.video-content {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  border: 1px dotted white;
+  color: orange;
+}
+
 /* Top Navbar */
 nav.navbar {
   position: absolute;
@@ -32,10 +40,20 @@ nav.navbar {
   left: 0;
   color: white;
   width: 100%;
-  border: 1px dotted white;
-  padding: 0 20px;
+  padding: 0 1%;
 }
 
 nav.navbar h1.logo-header {
   font-size: 1.3em;
+  line-height: 1.3em;
+  padding: 0;
+  margin: 10px 0 5px 0;
+}
+
+nav.navbar .header-subtitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: lighter;
+  font-style: italic;
 }
