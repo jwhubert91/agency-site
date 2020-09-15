@@ -1,3 +1,4 @@
+/* Page setup */
 @font-face {
   font-family: Noto-Sans;
   src: url(fonts/Noto_Sans_TC/NotoSansTC-Regular.otf);
@@ -7,34 +8,34 @@ html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
   top: 0;
   left: 0;
   font-family: "Noto-Sans";
 }
 
-#hero_video {
-  right: 0;
+/* Main page video background */
+.hero_video {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
   top: 0;
-  min-width: 100%;
-  position: relative;
+  left: 0;
   z-index: 0;
   filter: brightness(0.5);
+  position: relative;
 }
 
-.test_image {
+/* Top Navbar */
+nav.navbar {
   position: absolute;
-  top: 20px;
-  height: 100px;
-  width: auto;
-  z-index: 100;
-}
-
-/* nav.navbar {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 80px;
+  top: 0;
+  left: 0;
   color: white;
-} */
+  width: 100%;
+  border: 1px dotted white;
+  padding: 0 20px;
+}
+
+nav.navbar h1.logo-header {
+  font-size: 1.3em;
+}
