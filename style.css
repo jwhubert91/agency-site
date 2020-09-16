@@ -20,17 +20,7 @@ body {
   position: relative;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 600px) {
-  #hero_video {
-    display: none;
-  }
-}
-
-/* nav.navbar {
-=======
 .video-content {
->>>>>>> 38e39438a1295adb744af01331afe75f402c719c
   position: absolute;
   height: 200px;
   width: 300px;
@@ -64,8 +54,8 @@ nav.navbar h1.logo-header {
 }
 
 nav.navbar .header-subtitle {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-size: 0.75em;
   font-weight: lighter;
   font-style: italic;
