@@ -1,27 +1,26 @@
-@font-face {
-  font-family: Noto-Sans;
-  src: url(fonts/Noto_Sans_TC/NotoSansTC-Regular.otf);
-}
-
+/* Page setup */
 html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
   top: 0;
   left: 0;
-  font-family: 'Noto-Sans';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#hero_video {
-  right: 0;
+/* Main page video background */
+.hero_video {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
   top: 0;
-  min-width: 100%;
-  position: relative;
+  left: 0;
   z-index: 0;
-  filter: brightness(0.5);
+  filter: brightness(0.3);
+  position: relative;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
   #hero_video {
     display: none;
@@ -29,10 +28,45 @@ body {
 }
 
 /* nav.navbar {
+=======
+.video-content {
+>>>>>>> 38e39438a1295adb744af01331afe75f402c719c
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 80px;
-  color: white;
-} */
+  height: 200px;
+  width: 300px;
+  border: 1px dotted white;
+  color: orange;
+}
+
+/* Top Navbar */
+nav.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: none;
+  width: 100%;
+  padding: 0 1%;
+}
+
+.navbar .header-logo-container {
+  background: white;
+  opacity: 85%;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 3px;
+}
+
+nav.navbar h1.logo-header {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+nav.navbar .header-subtitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: lighter;
+  font-style: italic;
+}
