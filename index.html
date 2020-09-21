@@ -1,42 +1,101 @@
+<!-- document structure
+1. Covid offer
+2. hero
+3. why
+4. menu/offerings
+5. experience
+6. bottom cta
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      collaborative projects co. - Aggressively Low-Priced Web Design'
+      collaborative projects co. - Aggressively Low-Priced Web Design
     </title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- local resources -->
     <link
       rel="shortcut icon"
       href="./assets/favicon_io/favicon.ico"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- remote resources -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- ultimate stylesheet -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <video autoplay muted loop class="hero_video" preload="metadata">
-      <source src="assets/540_low_quality.mp4" type="video/mp4" />
-    </video>
-    <nav class="navbar">
-      <div class="header-logo-container">
-        <h1 class="logo-header">collaborative projects co.</h1>
-        <span class="header-subtitle"
-          >New York's Aggressively Low-Cost Web Designer</span
+    <!-- 1. covid offer -->
+    <!-- 2. hero -->
+    <div class="hero-section">
+      <div class="hero-container">
+        <div class="overlay"></div>
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
         >
+          <source src="./assets/540_low_quality.mp4" type="video/mp4" />
+        </video>
+        <div class="overlay-content-container h-100">
+          <div class="d-flex h-100">
+            <div class="w-100 text-white">
+              <header class="masthead mb-auto">
+                <div class="inner">
+                  <div class="masthead-brand">
+                    <h3>COLLABORATIVE PROJECTS CO.</h3>
+                    <span class="masthead-subtitle"
+                      >New York's Weirdly Affordable Web Designer</span
+                    >
+                  </div>
+                  <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Contact</a>
+                  </nav>
+                </div>
+              </header>
+              <div class="inner cover">
+                <h1 class="cover-heading">Focus on your business</h1>
+                <p class="lead">We'll take care of the website.</p>
+                <p class="lead fixed-cta">
+                  <a href="tel:917-719-2521" class="btn btn-lg btn-call">
+                    <svg
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      class="bi bi-telephone-fill"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"
+                      />
+                    </svg>
+                    Call Us
+                  </a>
+                  <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <div class="video-content">
-      Focus on your
-      <span class="video-header-revolving">business</span>
-      <br />
-      Let us handle the website
-      <br />
-      <a href="tel:(917) 719-2521‬">Call</a>
     </div>
-    <div class="why-section"></div>
-    <div class="menu-section"></div>
-    <div class="experience-section"></div>
-    <div class="bottom-cta"></div>
-    <footer class="footer"></footer>
-    <script src="./scripts/index.js"></script>
+    <!-- 3. why -->
+    <div class="why-section" style="height: 500px">Why section</div>
+    <!-- 4. menu/offerings -->
+    <!-- 5. experience -->
+    <!-- 6. bottom cta -->
+    <!-- <script src="./scripts/index.js"></script> -->
   </body>
 </html>
