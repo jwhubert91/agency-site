@@ -124,5 +124,19 @@ body {
 
 /* honeypot class */
 .hide-me {
-  display: hidden;
+  height: 0px;
+  width: 0px;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+  border: none;
+}
+.hide-me {
+  font-size: 0px;
+}
+.hide-me input {
+  height: 0px;
+  width: 0px;
+  margin: 0;
+  padding: 0;
 }
