@@ -54,6 +54,7 @@
       name="contact-us"
       action="../index.html"
       data-netlify-recaptcha="true"
+      netlify-honeypot="bot_honey"
       netlify
     >
       <div class="text-center mb-4">
@@ -99,6 +100,16 @@
           required
         />
         <label for="inputPhone">Phone</label>
+      </div>
+      <div class="form-label-group hide-me">
+        <input
+          type="text"
+          id="inputHoney"
+          name="bot_honey"
+          class="form-control"
+          placeholder="Just a placeholder"
+        />
+        <label for="inputHoney">This is for bots :)</label>
       </div>
       <div class="form-label-group">
         <textarea
