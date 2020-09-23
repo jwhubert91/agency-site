@@ -180,12 +180,13 @@ svg.hero-cta-icon {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  .hero-container {
-    background: url('./assets/poster_img.jpg') black no-repeat left top scroll;
-  }
-  .hero-container video {
+  /* .hero-container {
+    background: url('../assets/poster_img.jpg') black no-repeat center center
+      scroll;
+  } */
+  /* .hero-container video {
     display: none;
-  }
+  } */
   .btn-lg {
     font-size: 1rem;
   }
