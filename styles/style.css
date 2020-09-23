@@ -179,14 +179,17 @@ svg.hero-cta-icon {
   margin-top: -0.3em;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  /* .hero-container {
+/* @media (pointer: coarse) and (hover: none) {
+  .hero-container {
     background: url('../assets/poster_img.jpg') black no-repeat center center
       scroll;
-  } */
-  /* .hero-container video {
+  }
+  .hero-container video {
     display: none;
-  } */
+  }
+} */
+
+@media only screen and (max-width: 750px) {
   .btn-lg {
     font-size: 1rem;
   }
