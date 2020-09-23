@@ -170,16 +170,6 @@ a:hover {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
-@media (pointer: coarse) and (hover: none) {
-  .hero-container {
-    background: url('./assets/poster_img.jpg') black no-repeat center center
-      scroll;
-  }
-  .hero-container video {
-    display: none;
-  }
-}
-
 /* 3 - fixed cta buttons */
 p.fixed-cta {
   position: fixed;
@@ -187,4 +177,16 @@ p.fixed-cta {
 
 svg.hero-cta-icon {
   margin-top: -0.3em;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  .hero-container {
+    background: url('./assets/poster_img.jpg') black no-repeat left top scroll;
+  }
+  .hero-container video {
+    display: none;
+  }
+  .btn-lg {
+    font-size: 1rem;
+  }
 }
