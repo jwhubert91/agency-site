@@ -47,6 +47,12 @@ a:hover {
   padding: 0;
 }
 
+.masthead-logo {
+  height: 55px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
 .masthead-brand h3 {
   margin-bottom: 0;
   padding: 0.25rem 0 0 0;
@@ -177,4 +183,8 @@ a:hover {
 /* 3 - fixed cta buttons */
 p.fixed-cta {
   position: fixed;
+}
+
+svg.hero-cta-icon {
+  margin-top: -0.3em;
 }
